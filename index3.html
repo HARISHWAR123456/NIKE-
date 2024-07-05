@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerform</title>
+    <style>
+        .container1{
+        width: 600px;
+         height: 700px;
+         margin-left: 400px;
+         margin-top: 100px;
+        background-color: red;
+         position: relative;
+    
+        }
+        .img{
+          
+            width: 100%;
+            height: 100%;  
+            position: absolute 
+        }
+        .container2{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            
+        }
+       
+        
+        .label{
+            margin-left: 170px;
+            margin-top:1;
+           
+            
+        }
+        .content{
+            margin-top: 40px;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <img  class="img"   src="./images/sportregis.jpeg" >
+           <div class="container2">
+              <h1 style="text-align: center;text-transform:uppercase ;color: white;">registration form</h1>
+              <h2 style="text-align: center;">REGISTRATION ENDS SOON <span style="color: red;">! ! ! !</span></h2>
+                  <div class="content">
+                    <label  class="label"> GAME</label> <select name="games" style="margin-left: 95px; height: 25px; width: 200px;border-color: red; border-style: groove;">
+                        <option value=""> CRICKET</option>
+                        <option value=""> FOOTBALL</option>
+                        <option value=""> BASKETBALL</option>
+                    </select>
+                  </div>
+                  <div class="content">
+                    <label class="label"> COUNTRY</label><select name=" region" style="margin-left: 75px; height: 25px; width: 200px;border-color: red; border-style: groove;">
+                         <option value=""> NONE</option>
+                         <option value=""> INDIA</option>
+                         <option value=""> ENGLAND</option>
+                         <option value=""> USA</option>
+                         <option value=""> WEST INDIES</option>
+                         <option value=""> PORTUGAL</option>
+                         <option value=""> ARGENTINA</option>
+                         <option value=""> GERMANY</option>
+                         <option value="">BRAZIL</option>
+                         <option value="">AUSTRALIA</option>
+                    </select>
+                  </div>
+                  <div class="content">
+                    <label class="label"> TEAM NAME</label> <input type="text" style="height: 20px; width: 200px;border-color: red; border-style: groove; margin-left: 50px; " placeholder="TEAM NAME ">
+                  </div>
+
+                  <div class="content">
+                    <label class="label">CONTACT </label><input type="number" style="height: 20px; width: 200px;border-color: red; border-style: groove;margin-left:69px ;" placeholder="NUMBER" id="">
+                  </div>
+
+                  <div class="content">
+                    <label class="label">COACH NAME</label><input type="text" style="height: 25px; width: 200px;border-color: red; border-style: 60px groove;margin-left: 40px;" placeholder="NAME" id="">
+
+                  </div>
+
+                  <div class="content"> 
+                    <label class="label">PAYMENT</label><select style="height: 25px; width: 200px;border-color: red; border-style: groove;margin-left: 70px;">
+                        <option value=""> NONE</option>
+                        <option value=""> PAYPAL</option>
+                        <option value=""> GPAY</option>
+                        <option value=""> PHONE</option>
+                        <option value=""> APPLE PAY</option>
+                        <option value=""> CREDITCARD</option>
+                    </select>
+                  </div>
+                  <div class="content">
+                    <label class="label"> TERMS AND CONDITION</label><input type="radio">
+                  </div>
+                  <div> 
+                    <button style="height: 30px;width: 130px; border-radius:30px ;background-color: black; color: white; margin-top: 30px; margin-left: 40%;"> <b><a href="./index.html">CONFIRM</a></b></button>
+                  </div>
+
+            </div> 
+        </div>
+    
+    
+</body>
+</html>
